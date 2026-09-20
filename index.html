@@ -27,7 +27,7 @@ button.g{background:none;color:var(--wn);padding:4px 8px}
 #gbtn{margin-top:18px}
 </style></head><body><main id="app"></main>
 <script>
-const API='ISI_URL_WEB_APP_APPS_SCRIPT';
+const API='https://script.google.com/macros/s/AKfycbwJ-MA_Hw8GtlsFMB2TmzjpRGtb_FKrDE75DEbT95ZL2GjH4F6mfJTow46uGMdhhWVx/exec';
 let token=localStorage.t||'',D=null,view='list',sel=null,err='',step=0,em='';
 const $=i=>document.getElementById(i),v=i=>$(i).value.trim();
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
